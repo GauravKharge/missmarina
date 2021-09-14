@@ -1,158 +1,337 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>missmarina</title>
-  <link rel="icon" href="favicon.ico">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>missmarina</title>
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bdf2e77a51.js" crossorigin="anonymous"></script>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;300;400;500;700;900&family=Sacramento&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bdf2e77a51.js" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;300;400;500;700;900&family=Sacramento&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- Optional JavaScript; choose one of the two! -->
 
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <!--Main Navigation-->
+    <header>
 
-  <section id="title">
-    <div class="container-fluid">
-      <!-- NAV Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">missmarina</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#title">Home</a> </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-me">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-          </ul>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-brand nav-link" target="_blank" href="#">
+                <strong>missmarina</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item main-nav-item active">
+                        <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item main-nav-item">
+                        <a class="nav-link" href="#AboutMe">About</a>
+                    </li>
+                    <li class="nav-item main-nav-item">
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item main-nav-item">
+                        <a class="nav-link" href="#Blog">Blog</a>
+                    </li>
+                    <li class="nav-item main-nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item main-nav-item">
+                        <a class="nav-link" href="#Contact">Contacts</a>
+                    </li>
+                </ul>
+    
+                <ul class="navbar-nav d-flex flex-row">
+                    <!-- Icons -->
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#" rel="nofollow"
+                            target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://ms-my.facebook.com/maryna.stepchuk/" rel="nofollow" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://www.instagram.com/missmarina_s/" rel="nofollow" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+        <!-- Navbar -->
+
+        <!-- Background image -->
+        <div id="intro" class="bg-image shadow-2-strong">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+            <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <div class="text-white">
+                <h1 class="mb-3 big-headline">I'm Marina</h1>
+                <h5 class="mb-4 text-white title-description" >I'm a dreamer. I have to dream and reach for the stars, and if I miss a star then I grab a handful of clouds.💙💛</h5>
+                <!-- <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
+                rel="nofollow" target="_blank">Start tutorial</a>
+                <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
+                role="button">Download MDB UI KIT</a> -->
+            </div>
+            </div>
         </div>
-      </nav>
-
-      <!-- Title -->
-
-
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="big-heading">I am Marina</h1>
-          <p class="title-paragraph">I'm a dreamer. I have to dream and reach for the stars, and if I miss a star then I grab a handful of clouds.💙💛</p>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
-        <div class="col-lg-6">
-          <img class="title-image" src="images/marina-1.jpeg" alt="marina-mockup">
+        <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+    <hr class="my-5" />
+    <!--Main layout-->
+    <main class="mt-5 main">
+        <div class="container">
+        <!--Section: Content-->
+        <section id="AboutMe">
+            <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+                <div class="bg-image hover-overlay hover-zoom ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="images/about-me.jpg" class="img-fluid" />
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+                <h4><strong>About Me</strong></h4>
+                <p class="text-muted">
+                    Знаходжуся в Україні
+                    Вірю в кохання та дива
+                    Подорожую
+                    Медитую
+                    Знайомлюсь зі світом та з собою
+                    Навчаюсь жити смачно та із задоволенням
+                    💙💛
+                </p>
+                <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+                <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
+                nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
+                alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+                </p>
+            </div>
+            </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        <!--Section: Content-->
+        <section class="text-center" id="Portfolio">
+            <h4 class="mb-5"><strong>My Portfolio</strong></h4>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb image">
+                    <img class="image__img" src="images/car_1.jpg" alt="marina">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            Burkina Faso
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb image">
+                    <img class="image__img" src="images/car_2.jpg" alt="marina">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            Turkey
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb image">
+                    <img class="image__img" src="images/car_3.jpg" alt="marina">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            Odessa
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb image">
+                    <img class="image__img" src="images/car_4.jpg" alt="marina">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            Odessa
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb image">
+                    <img class="image__img" src="images/car_5.jpg" alt="marina">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            Khmelnitskiy
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-4 thumb image">
+                    <img class="image__img" src="images/car_6.jpg" alt="marina">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            Cyprus
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        <!--Section: Content-->
+        <section class="text-center" id="Blog">
+            <h4 class="mb-5"><strong>My Travel Blogs</strong></h4>
+
+            <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                <div class="bg-image hover-overlay hover-shadow hover-zoom ripple" data-mdb-ripple-color="light">
+                    <img src="images/egypt-tr.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Hurgada, Egypt</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum neque eu maximus scelerisque. Vivamus pulvinar eget tortor in rhoncus.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Explore</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                <div class="bg-image hover-overlay hover-zoom hover-shadow ripple" data-mdb-ripple-color="light">
+                    <img src="images/odessa-tr.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Odessa, Ukraine</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum neque eu maximus scelerisque. Vivamus pulvinar eget tortor in rhoncus.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Explore</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                <div class="bg-image hover-overlay hover-zoom hover-shadow ripple" data-mdb-ripple-color="light">
+                    <img src="images/turkey-tr.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Turkey</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum neque eu maximus scelerisque. Vivamus pulvinar eget tortor in rhoncus.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Explore</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        
         </div>
-      </div>
-    </div>
+    </main>
+    <!--Main layout-->
 
-
-  </section>
-
-  <!-- About Me -->
-  <section id="about-me">
-
-    <div class="container-fluid">
-      <img class="about-me-image" src="images/marina-6.jpeg" alt="marina2-mockup">
-      <h2 class="feature-title">Hello.</h2>
-      <p class="profile-description">Знаходжуся в Україні
-        Вірю в кохання та дива
-        Подорожую
-        Медитую
-        Знайомлюсь зі світом та з собою
-        Навчаюсь жити смачно та із задоволенням
-        💙💛</p>
-    </div>
-
-  </section>
-
-  <!-- Work -->
-  <section id="work">
-    <div class="container-fluid">
-      <h1 class="">Work</h2>
-        <div class="row">
-          <div class="col-lg-4 feature-box">
-            <i class="fas fa-school fa-4x icon"></i>
-            <h3 class="feature-title">School Teacher.</h3>
-            <p>School Teacher at Kindergarten.</p>
-          </div>
-          <div class="col-lg-4 feature-box">
-            <i class="fas fa-dollar-sign fa-4x icon"></i>
-            <h3 class="feature-title">Trader</h3>
-            <p>Stock Market, Real Estate and Cryptocurrency</p>
-          </div>
-          <div class="col-lg-4 feature-box">
-            <i class="fas fa-plane fa-4x icon"></i>
-            <h3 class="feature-title">Traveller</h3>
-            <p>Part time Traveller. Wish to travel the world</p>
-          </div>
+    <!--Footer-->
+    <footer class="bg-light text-lg-start">
+        <div class="py-4 text-center" id="Services">
+            <h4 class="mb-5"><strong>Services coming soon</strong></h4>
         </div>
-    </div>
-  </section>
 
-  <!-- Blog -->
-  <section id="blog">
-    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">І як так може місто впливати на настрій 🥰😻 люблю тебе Одеса</h2>
-          <img class="testimonial-image" src="images/marina-3.jpeg" alt="dog-profile">
-          <em>Hurgada, Egypt</em>
+        <hr class="m-0" />
+
+        <div class="text-center py-4 align-items-center" id="Contact">
+        <p>Follow me on social media</p>
+        <a href="#" class="btn btn-primary m-1" role="button"
+            rel="nofollow" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://ms-my.facebook.com/maryna.stepchuk/" class="btn btn-primary m-1" role="button" rel="nofollow"
+            target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="btn btn-primary m-1" role="button" rel="nofollow"
+            target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/missmarina_s/" class="btn btn-primary m-1" role="button" rel="nofollow"
+            target="_blank" >
+            <i class="fab fa-instagram"></i>
+        </a>
         </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">И все больше вопросов, и так мало ответов... и все таки, какой загадочный наш мир...</h2>
-          <img class="testimonial-image" src="images/marina-5.jpeg" alt="lady-profile">
-          <em>Odessa, Ukraine</em>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+        <a class="text-dark" href="#">missmarina.com</a>
         </div>
-      </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-
-  <footer id="footer">
-    <div class="container-fluid">
-      <i class="social-icon fab fa-twitter fa-2x"></i>
-      <a class="social-icon fab fa-facebook fa-2x" href="https://ms-my.facebook.com/maryna.stepchuk/"></a>
-      <a class="social-icon fab fa-instagram fa-2x" href="https://www.instagram.com/missmarina_s/"></a>
-      <a class="social-icon fas fa-envelope fa-2x" href="a href=" mailto:missmarinast@gmail.com""></a>
-      <p>© Copyright 2021 missmarina</p>
-    </div>
-
-
-  </footer>
+        <!-- Copyright -->
+    </footer>
+    <!--Footer-->
 </body>
-
 </html>
